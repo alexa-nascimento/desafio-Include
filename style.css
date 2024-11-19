@@ -1,11 +1,12 @@
 body {
   background: purple;
-  background-image: url("./assets/pattern.png") ;
+  background-image: url("./assets/pattern.png");
   background-size: 300px;
 }
 
 body * {
-  color: white;
+  font-family: "bokor";
+  color: rgb(0, 0, 0);
 }
 #container {
   width: 100%;
@@ -19,13 +20,79 @@ body * {
   width: 100%;
   max-width: 1050px;
   background-color: orange;
-  position: absolute;
-  
 }
 
-#menu img{
+#menu img {
   height: 60px;
   margin: 5px 0px 0px 10px;
 }
 
-
+/*Perfil*/
+#button1 {
+  width: 100px;
+  margin: -50px 250px 0;
+}
+#button1 button {
+  width: 100px;
+  height: 30px;
+  background: rgba(255, 255, 255, 0.185);
+  border: 1px solid black;
+  border-radius: 8px;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+#button1 a {
+  text-decoration: none;
+}
+#button1 a:hover {
+  color: white;
+}
+#button1 button:hover {
+  border: 1px solid white;
+}
+/*Include*/
+#button2 {
+  width: 100px;
+  margin: -30px 380px 0;
+}
+#button2 button {
+  width: 100px;
+  height: 30px;
+  background: rgba(255, 255, 255, 0.185);
+  border: 1px solid black;
+  border-radius: 8px;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+#button2 a {
+  text-decoration: none;
+}
+#button2 a:hover {
+  color: white;
+}
+#button2 button:hover {
+  border: 1px solid white;
+}
+/*Sobre mim  */
+#button3 {
+  width: 100px;
+  margin: -30px 500px 0;
+}
+#button3 button {
+  width: 100px;
+  height: 30px;
+  background: rgba(255, 255, 255, 0.185);
+  border: 1px solid black;
+  border-radius: 8px;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+#button3 a{
+  text-decoration: none;
+}
+#button3 a:hover{
+  color: white;
+}
+#button3 button:hover{
+  border: 1px solid white;
+}

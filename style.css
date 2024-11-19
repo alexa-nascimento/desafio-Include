@@ -1,0 +1,31 @@
+body {
+  background: purple;
+  background-image: url("./assets/pattern.png") ;
+  background-size: 300px;
+}
+
+body * {
+  color: white;
+}
+#container {
+  width: 100%;
+  max-width: 1050px;
+  border: 1px solid red;
+  padding: 24px;
+}
+
+#menu {
+  height: 70px;
+  width: 100%;
+  max-width: 1050px;
+  background-color: orange;
+  position: absolute;
+  
+}
+
+#menu img{
+  height: 60px;
+  margin: 5px 0px 0px 10px;
+}
+
+

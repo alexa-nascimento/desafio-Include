@@ -10,10 +10,14 @@ body * {
 }
 #container {
   width: 100%;
-  max-width: 1050px;
-  border: 1px solid red;
+  max-width: 1160px;
   padding: 24px;
 }
+/*#container img{
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 10px;
+}*/
 
 #menu {
   height: 70px;
@@ -87,12 +91,37 @@ body * {
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
 }
-#button3 a{
+#button3 a {
   text-decoration: none;
 }
-#button3 a:hover{
+#button3 a:hover {
   color: white;
 }
-#button3 button:hover{
+#button3 button:hover {
   border: 1px solid white;
+}
+
+#intro {
+  width: 450px;
+  height: 300px;
+  margin: 50px 0;
+  background: purple;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 16px;
+}
+
+#socials {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding: 24px 0;
+  font-size: 40px;
+}
+#socials a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  border-radius: 50%;
 }

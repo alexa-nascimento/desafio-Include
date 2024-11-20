@@ -285,12 +285,11 @@ footer{
   #page2_content{
     width:90%;
   }
-  #page2_content p, #page3_content p{
-    width: 400px;
+  #perfil_text p,#page2_content p, #page3_content p{
+    width: 250px;
+    font-size: smaller;
   }
-  #includeimgs{
-    clear: all;
-  }
+  
 
   footer {
     padding: 100px;

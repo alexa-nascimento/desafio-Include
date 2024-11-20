@@ -1,3 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --text-color:rgb(78,255,0);
+  --content_box_color:rgb(70, 1, 70);
+}
+
 body {
   background: purple;
   background-image: url("./assets/pattern.png");
@@ -6,7 +17,6 @@ body {
 
 body * {
   font-family: "bokor";
-  
 }
 #container {
   width: 100%;
@@ -112,7 +122,8 @@ body * {
   border: 1px solid rgb(0, 0, 0);
   border-radius: 10px;
   padding: 16px;
-  color: green;
+  color: var(--text-color)
+
 }
 
 #socials {
@@ -128,9 +139,9 @@ body * {
   justify-content: center;
   padding: 16px;
   border-radius: 50%;
-  color: green;
+  color: var(--text-color);
 }
-
+/*primeira pagina - perfil*/
 #page1{
   width: 500px;
   height: 600px;
@@ -147,8 +158,78 @@ body * {
   width: 112px;
 }
 #perfil_text{
-  height: 400px;
-  background: rgb(70, 1, 70);
+  height: 380px;
+  background: var(--content_box_color);
   border-radius: 10px;
-  color: green;
+  color: var(--text-color);
+  padding: 0 24px;
+}
+#perfil_text h1{
+  text-align: left;
+}
+#perfil_text p{
+  text-align: left;
+}
+/*segunda pagina - Include*/
+#page2{
+  width: 1000px;
+  height: 600px;
+  margin: auto;
+  background: purple;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 16px;
+  color: var(--text-color);
+}
+#page2_content{
+  width: 970px;
+  height: 500px;
+  background: var(--content_box_color);
+  margin:  auto;
+  border-radius: 10px;
+  padding: 0 16px;
+  color: var(--text-color);
+}
+#page2_content p{
+  text-align: left;
+  width: 500px;
+}
+#includeimgs img{
+  display: flex;
+  border: 5px solid var(--text-color);
+  border-radius: 10px;
+  width: 255px;
+  height: 300px;
+  margin:-250px 550px;
+  
+}
+/*terceira pagina - sobre mim*/
+#page3{
+height: 500px;
+margin-top: 50px;
+background: purple;
+border: 1px solid black;
+border-radius: 10px;
+padding: 0 16px;
+color: var(--text-color);
+}
+#page3_content{
+  height: 400px;
+  background: var(--content_box_color);
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 0 16px;
+  
+}
+#page3_content p{
+  text-align: left;
+  width: 520px;
+  padding: 15px 15px;
+}
+
+footer{
+  text-align: center;
+  padding: 100px;
+  
+
 }

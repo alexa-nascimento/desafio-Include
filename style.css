@@ -13,15 +13,21 @@ body {
   background: purple;
   background-image: url("./assets/pattern.png");
   background-size: 300px;
+  
 }
 
 body * {
   font-family: "bokor";
 }
+
+html {
+  scroll-behavior: smooth;
+}
 #container {
   width: 100%;
-  max-width: 1160px;
+  max-width: 1800px;
   padding: 24px;
+  margin: 56px auto 0px;
 }
 /*#container img{
   height: 200px;
@@ -31,8 +37,9 @@ body * {
 
 #menu {
   height: 70px;
-  width: 100%;
+  width: 1000px;
   max-width: 1050px;
+  margin: 0 auto ;
   background-color: orange;
 }
 
@@ -117,7 +124,7 @@ body * {
 #intro {
   width: 450px;
   height: 300px;
-  margin: 50px 0;
+  margin: 50px auto;
   background: purple;
   border: 1px solid rgb(0, 0, 0);
   border-radius: 10px;
@@ -205,8 +212,9 @@ body * {
 }
 /*terceira pagina - sobre mim*/
 #page3{
+width: 1000px;
 height: 500px;
-margin-top: 50px;
+margin: 50px auto;
 background: purple;
 border: 1px solid black;
 border-radius: 10px;
@@ -232,4 +240,8 @@ footer{
   padding: 100px;
   
 
+}
+
+@media (min-width: 700px){
+  
 }

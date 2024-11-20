@@ -7,8 +7,13 @@
 :root{
   --text-color:rgb(78,255,0);
   --content_box_color:rgb(70, 1, 70);
+  --page2_box_width: 1000px;
+  --page3_box_width: 1000px;
 }
 
+.mobile{
+
+}
 body {
   background: purple;
   background-image: url("./assets/pattern.png");
@@ -179,7 +184,7 @@ html {
 }
 /*segunda pagina - Include*/
 #page2{
-  width: 1000px;
+  width: var(--page2_box_width);
   height: 600px;
   margin: auto;
   background: purple;
@@ -212,7 +217,7 @@ html {
 }
 /*terceira pagina - sobre mim*/
 #page3{
-width: 1000px;
+width: var(--page3_box_width);
 height: 500px;
 margin: 50px auto;
 background: purple;
@@ -242,6 +247,52 @@ footer{
 
 }
 
-@media (min-width: 700px){
-  
+/* Mobile styles (para telas até 768px) */
+@media (max-width: 768px) {
+  /* Menu */
+  #menu {
+    display: flex;
+    flex-direction: inline;
+    padding: 10px 0;
+  }
+
+  #menu img {
+    margin: -5px 10px;
+  }
+
+  /* Botões */
+  #button1 , #button2 , #button3 {
+    margin: 10px 25px;
+  }
+
+  /* Intro */
+  #intro {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  /* Páginas */
+  #page1, #page2, #page3 {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  /* Redes Sociais */
+  #socials {
+    gap: 10px;
+    font-size: 30px;
+  }
+  #page2_content{
+    width:90%;
+  }
+  #page2_content p, #page3_content p{
+    width: 400px;
+  }
+  #includeimgs{
+    clear: all;
+  }
+
+  footer {
+    padding: 100px;
+  }
 }
